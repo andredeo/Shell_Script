@@ -91,8 +91,7 @@ while getopts "hm:f:d:" OPT ; do
 		m) mode="$OPTARG" ;;
 		f) sourcefile="$OPTARG" ;;
 		d) delimitador="$OPTARG" ;;
-		*) help
-		   exit ;;
+		*) help ;;
 	esac
 done
 
