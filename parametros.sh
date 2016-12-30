@@ -1,5 +1,18 @@
 #!/bin/bash
 
+#+------------------------------------------------------------------------------+
+#| File: parametros.sh								|
+#| Version: 1.0									|
+#| Description: Demonstra o uso de Help, Passagem de paarametros,		|
+#| 		Passagem de arquivos e Verificacao de dependencias.		|
+#| Author: Andre Deo <andredeo@gmail.com>					|
+#|	   Aecio Pires <aeciopires@gmail.com>					|
+#| Date: 30-Dez-2016								|
+#| Revision: 									|
+#| Last Updated:								|
+#+------------------------------------------------------------------------------+
+
+
 #################################################################################
 # Definicao de variaveis de trabalho                                            #
 # Leia atentamente essa secao e                                                 #
