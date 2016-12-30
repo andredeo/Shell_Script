@@ -85,14 +85,13 @@ then
 fi
 
 # Obtendo os parametros e identificando as opcoes
-while getopts ":hm:f:d:" OPT ; do
+while getopts "hm:f:d:" OPT ; do
 	case "${OPT}" in
 		h) help ;;
 		m) mode="$OPTARG" ;;
 		f) sourcefile="$OPTARG" ;;
 		d) delimitador="$OPTARG" ;;
-		*) echo "[ERRO] Erro na passagem dos paramentros."
-		   help
+		*) help
 		   exit ;;
 	esac
 done
@@ -144,7 +143,7 @@ else
         	echo "O arquivo termina em \",\""
                 delimitador=1
         else
-        	echo "Opcao invalida para \"-d\", utilize \"-d 0\" ou \"-d1\""
+        	echo "Opcao invalida para \"-d\", utilize \"-d 0\" ou \"-d 1\""
         fi
 fi
 
