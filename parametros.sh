@@ -25,7 +25,7 @@
 
 # Defina aqui o arquivo de origem
 # Ele so sera usado no modo valor fixo
-sourcefile="/Scripts/BEJobFullZabbix.csv"
+sourcefile="/Scripts/Arquivo.csv"
 
 # O script esta preparado para duas situacoes em relacao ao arquivo .csv
 # "-d 0" = O arquivo nao termina em ","
